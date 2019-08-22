@@ -5,6 +5,5 @@ RUN apt-get update && apt-get install wget -y \
 RUN wget https://github.com/actions/migrate/releases/download/2019-08-06%4020-47/migrate-actions-linux.tar
 RUN tar -xvf migrate-actions-linux.tar
 COPY ./entrypoint.sh /
-RUN chmod +x /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
 
