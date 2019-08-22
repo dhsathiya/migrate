@@ -14,6 +14,11 @@ Pre-built binaries are available for Linux, OSX and Windows, and it can be built
 
 and unarchive it.
 
+Alternatively you can do the same with docker as well. Use the following command.
+```
+docker run --rm -it -v /path/to/cloned/repository:/migrate/  dhsathiya/migrate:v1
+```
+
 ## Usage
 
 Once you've downloaded and unarchived the tool, navigate to a repository using Actions via a `main.workflow` file and run the `migrate-actions` executable (`migrate-actions.exe` on windows) without any arguments,
